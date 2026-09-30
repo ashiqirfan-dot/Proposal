@@ -1,0 +1,28 @@
+# --- Confidential data: never commit ---
+# Everything under data/ stays on your machine, except the placeholder files below.
+data/**
+!data/README.md
+!data/*/
+!data/*/.gitkeep
+
+# Common document types, blocked anywhere else in the repo as a safety net
+*.pdf
+*.xlsx
+*.xls
+*.csv
+*.docx
+!templates/*.docx
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+*.egg-info/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
